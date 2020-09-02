@@ -1,0 +1,53 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Default screen spaces -->
+    <dimen name="default_space_full">8dp</dimen>
+    <dimen name="default_space_half">4dp</dimen>
+    <dimen name="default_space_small">1dp</dimen>
+
+    <!-- Default layout padding -->
+    <dimen name="default_padding_content_full">16dp</dimen>
+    <dimen name="default_padding_content_half">8dp</dimen>
+    <dimen name="default_padding_full">8dp</dimen>
+    <dimen name="default_padding_half">4dp</dimen>
+
+    <!-- Default margin -->
+    <dimen name="default_margin_content_full">16dp</dimen>
+    <dimen name="default_margin_content_half">8dp</dimen>
+
+    <!-- Flag margins -->
+    <dimen name="image_size_flag_width">24dp</dimen>
+    <dimen name="image_size_flag_height">24dp</dimen>
+    <dimen name="margin_flag_full">16dp</dimen>
+    <dimen name="margin_flag_half">8dp</dimen>
+    <dimen name="margin_flag_small">4dp</dimen>
+
+    <!-- Card spaces -->
+    <dimen name="card_space_full">8dp</dimen>
+    <dimen name="card_space_half">4dp</dimen>
+
+    <!-- Tab lines -->
+    <dimen name="tab_line">16dp</dimen>
+
+    <!-- elevation dimen size -->
+    <dimen name="elevation_full">4dp</dimen>
+
+    <!-- Image dimen sizes -->
+    <dimen name="image_size_large_score_width">72dp</dimen>
+    <dimen name="image_size_large_score_height">72dp</dimen>
+
+    <!-- Widget dimen sizes -->
+    <dimen name="widget_default_initial_height">250dp</dimen>
+    <dimen name="widget_default_initial_width">250dp</dimen>
+    <dimen name="widget_default_resize_height">180dp</dimen>
+    <dimen name="widget_default_resize_width">250dp</dimen>
+
+    <!-- Text dimen sizes -->
+    <dimen name="text_size_large_score">28sp</dimen>
+    <dimen name="text_size_medium">18sp</dimen>
+
+</resources>

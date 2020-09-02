@@ -1,0 +1,40 @@
+<resources>
+
+    <!-- Application name -->
+    <string translatable="false" name="app_name">Football Matches</string>
+
+    <!-- Description values -->
+    <string translatable="false" name="description_home">home</string>
+    <string translatable="false" name="description_away">away</string>
+    <string translatable="false" name="description_no_matches">no matches</string>
+
+    <!-- Date formats -->
+    <string translatable="false" name="date_format_day">dd</string>
+    <string translatable="false" name="date_format_week">EEEE</string>
+    <string translatable="false" name="date_format_simple">yyyy-MM-dd</string>
+    <string translatable="false" name="date_format_detailed">yyyy-MM-dd:HH:mm</string>
+    <string translatable="false" name="date_format_complete">yyyy-MM-ddHH:mm:ss</string>
+
+    <!-- Settings menu name -->
+    <string name="action_settings">Settings</string>
+
+    <!-- Matches values -->
+    <string name="no_matches">There are no matches today.</string>
+
+    <!-- Toolbar values -->
+    <string name="today">Today</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="yesterday">Yesterday</string>
+
+    <!-- Widget title -->
+    <string name="widget_title">Today matches</string>
+
+    <!-- Country flag description -->
+    <string name="flag_germany">Germany</string>
+    <string name="flag_italy">Italy</string>
+    <string name="flag_spain">Spain</string>
+    <string name="flag_england">England</string>
+    <string name="flag_champions_league">Champions League</string>
+    <string name="flag_unknown">Unknown</string>
+
+</resources>
