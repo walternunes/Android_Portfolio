@@ -1,0 +1,58 @@
+V1 changes:
+Trocado layout xml activity_article_list_v1 (full)
+  toolbar size attribute
+  toolbar color
+  removido margin top imagem logo
+Trocado atributo imagem no xml list_item_article
+Alterado numero de colunas Macro layout
+Adicionado Dimen usados nos arquivos xml
+ArticleListActivity aponta para os novos xml's de layout
+Criado arquivo Material color
+Adicionado Primary secondary e accent color no tema bacon.base
+Adicionado text sizes dimen
+Style text appearence
+Textcolor branco foi pro titulo (retirada ideia de pallete)
+Dimen alterado do recycler view
+
+V2 changes:
+Attr - Incluido LockedImageView
+Trocado versao no .java fragment Detail e palete de cores para vibrante
+Criado LockedImageView para custom aspect ratio
+Add itens no dimens
+List faz download da foto e não do thumb por questão de cache
+Palletes adicionadas
+Status bar na cor da foto
+Refeito toda Article Activity que está usando Collapselayout com o componente FAB
+Por motivos de teste ArticleDetailFragment foi substituido por blankFragment
+Imagem do artigo agora é carregado no collapse
+Titulo agora faz parte do title do collapse
+Subtitulo removido nessa versão
+
+TODO 1 - baseline OK
+Pallete de cor no titulo *** removido problema de listview
+
+
+TODO 2 - baseline OK
+Remover fragment_article_detail_v2 (nao esta usando por causa do blank fragment) antes da baseline final V2
+Atentar a funcao getUpButtonFloor vai sair do fragment e passara para activity
+
+TODO 3
+Recolocar app:behavior_overlapTop="78dp" no viewpager do arquivo activity_article_detail_v2.xml
+Fazer animacao explode da activity grid pra detail
+Fazer animacao entre details (depthPage e Zoomout)
+Cuidar margem de texto
+Trocar fonte
+Colocar overlapTop (78dp) no dimen
+Colocar margin no dimen do cardview fragment_article_detail
+
+
+TODO 4
+Tratar bola de loading (cor e load fix)
+Add build checkers para api < 21 (maxWidth file com erro mas não é mais utilizado na latest)
+Add protection nas fotos do listview (photo_list_background_protection.xml)
+
+Fazer icone de acordo com a cor
+Scrim
+Ver espaçamento do FAB
+Arrumar Tablet
+Melhorar tratamento de cores na status bar (olhar vibrant only tbm) - não funciona
